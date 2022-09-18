@@ -1,0 +1,101 @@
+img {
+width: 150px;
+height: 150px;
+}
+.photo{
+    width: 250px;
+    height: 250px;
+}
+.container{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    max-width: 1360px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px;
+    z-index: 2;
+    position: relative;
+    background-color:aliceblue;
+}
+.box-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.backg {
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/border-made-with-cosmetics-products-flowers-blue-background_23-2147891378.jpg?w=1380');
+}
+header {
+    width: 100%;
+}
+
+.box-flex-item{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo{
+    width: 15%;
+    align-items:right;
+}
+.menu {
+    width: 65%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+}
+.tel {
+    width: 20%;
+}
+.products{
+display: flex;
+flex-wrap: wrap;
+margin: 15px;
+}
+.product{
+    margin-left: 10px;
+}
+
+footer{
+    height: 80px;
+    padding: 15px 0;
+
+}
+.footer-1{
+    display: flex;
+    width: 20%;
+}
+.footer-2{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+ 
+}
+.footer-3{
+    display: flex;
+    width: 20%;
+    justify-content: right;
+
+}
+.af a{
+    text-align: center;
+    margin: 0 5px;
+}
+a{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
